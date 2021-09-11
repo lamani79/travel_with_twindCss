@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.oppen_height_mb_nav{
+    height: 400px;
+}
+/* .herro_h1{
+    line-height: 89px;
+}
+.herro_p{
+    line-height: 30px;
+} */
