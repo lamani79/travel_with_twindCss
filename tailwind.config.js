@@ -19,8 +19,13 @@ module.exports = {
       },
       spacing: {
         'for10' : '0.63rem',
+      },
+      borderRadius: {
+        'pers-round' : '36px',
+      },
+      borderWidth: {
+        '1' : '1px',
       }
-
     },
   },
   variants: {
