@@ -50,7 +50,9 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
    <!-- header -->
 
    <header class="  h-14 fixed top-0 w-full bg-white z-10">
-       <div class="container transition filter md:filter-none mx-auto py-3 px-2">
+       <div class="container transition filter md:filter-none mx-auto py-3 
+       gap-6 px-16 md:px-0 lg:px-6 xl:px-28 2xl:px-48
+       ">
 
            <nav class="flex items-center justify-between">
                <img src="src/img/Logo.png" alt="logo" class="logo">
@@ -125,6 +127,7 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
     </section>
     <!-- herro section end  -->
     <!-- ######################################################################################### -->
+    <!-- category section start -->
     <section id="category" class="text-center mt-10 md:mt-36 lg:mt-8
      relative
     ">
@@ -136,6 +139,7 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
         <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
          gap-6 px-16 md:px-28 lg:px-10 xl:px-28 2xl:px-48
         ">
+        <!-- category iteme 1 -->
             <div class="category_item transition py-8 lg:py-14
             flex flex-col justify-center items-center
             ">
@@ -143,22 +147,23 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
                 <h3 class="text-hcolor font-semibold">Calculated Weather</h3>
                 <p class="text-pcolor text-sm px-8">Built Wicket longer admire do barton vanity itself do in it.</p>
             </div>
+            <!-- category iteme 2 -->
+
 
             <div style="
             background: #FFFFFF;
-            box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
             border-radius: 36px;
-            
             "
-
-            class="category_item transition py-8 lg:py-14 relative
+            class="category_item the_item_shadow transition py-8 lg:py-14 relative
                  flex flex-col justify-center items-center
             ">
+
                 <div class="shap absolute -bottom-6 -left-6 bg-redi p-10 rounded-tl-pers-round rounded-br-xl -z-1"></div>
                 <img width="92px" height="72px" src="/src/img/airplan2.png" alt="" class="inline-block">
                 <h3 class="text-hcolor font-semibold">Best Flightss</h3>
                 <p class="text-pcolor text-sm px-8">Engrossed listening. Park gate sell they west hard for the.</p>
             </div>
+        <!-- category iteme 3 -->
 
             <div class="category_item transition py-8 lg:py-14
             flex flex-col justify-center items-center
@@ -167,6 +172,7 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
                 <h3 class="text-hcolor font-semibold">Local Events</h3>
                 <p class="text-pcolor text-sm px-8">Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
             </div>
+        <!-- category iteme 4 -->
 
             <div class="category_item transition py-8 lg:py-14 
             flex flex-col justify-center items-center
@@ -177,7 +183,69 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
             </div>
         </div>
     </section>
+    <!-- ./gategory section end -->
     <!-- ######################################################################################### -->
+    <section id="top_selling" class="text-center mt-10 lg:mt-20">
+        <h3 class=" text-pcolor font-medium">Top Selling</h3>
+        <h2 class="text-hcolor font-bold text-3xl">Top Destinations</h2>
+
+        <div class=" grid justify-center gap-6 md:grid-cols-3 mt-10
+         px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48
+        ">
+            <!-- destionation item 1 -->
+            <div class="destination_item the_item_shadow mx-auto rounded-3xl overflow-hidden">
+                <img src="/src/img/roma.png" alt="" class=" object-cover object-center w-screen"
+                style="max-height:75%;"
+                >
+                <div class="item_info text-pcolor font-medium grid items-center px-4 py-4" style="height: 25%;">
+                    <div class="title_and_price  text-lg flex justify-between">
+                        <h3 class="">Rome, Italty</h3>
+                        <span class="">$5,42k</span>
+                    </div>
+                    <div class="time_trip flex">
+                        <img src="src/img/navigation 1.png" alt="" class="mr-3">
+                        <h4 class="text-base">10 Days Trip</h4>
+                    </div>
+                </div>
+            </div><!-- .destination_item -->
+
+            <!-- destionation item 2 -->
+            <div class="destination_item the_item_shadow mx-auto rounded-3xl overflow-hidden">
+                <img src="/src/img/london.png" alt="" class=" object-cover object-center w-screen"
+                style="max-height:75%;"
+                >
+                <div class="item_info text-pcolor font-medium grid items-center px-4 py-4" style="height: 25%;">
+                    <div class="title_and_price  text-lg flex justify-between">
+                        <h3 class="">London, UK</h3>
+                        <span class="">$4,2k</span>
+                    </div>
+                    <div class="time_trip flex">
+                        <img src="src/img/navigation 1.png" alt="" class="mr-3">
+                        <h4 class="text-base">12 Days Trip</h4>
+                    </div>
+                </div>
+            </div><!-- .destination_item -->
+
+            <!-- destionation item 3 -->
+            <div class="destination_item the_item_shadow mx-auto rounded-3xl overflow-hidden">
+                <img src="/src/img/euro.png" alt="" class=" object-cover object-center w-screen"
+                style="max-height:75%;"
+                >
+                <div class="item_info text-pcolor font-medium grid items-center px-4 py-4" style="height: 25%;">
+                    <div class="title_and_price  text-lg flex justify-between">
+                        <h3 class="">Rome, Italty</h3>
+                        <span class="">$15K</span>
+                    </div>
+                    <div class="time_trip flex">
+                        <img src="src/img/navigation 1.png" alt="" class="mr-3">
+                        <h4 class="text-base">28 Days Trip</h4>
+                    </div>
+                </div>
+            </div><!-- .destination_item -->
+        </div>
+    </section>
+    <!-- ######################################################################################### -->
+
 
    </div><!-- ./container -->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
