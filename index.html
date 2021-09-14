@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="/css/style.css">
     <title>Travling landing page</title>
 </head>
-<body class=" font-pfont">
+<body class=" font-pfont bg-white">
     <!-- <div class="small_screan_nav bg-black w-full h-full absolute z-50
      opacity-90  ">
     fdqs
@@ -42,7 +42,7 @@
              <li><a class=" p-1 hover:text-redi transition" href="#">bookings</a></li>
              <li><a class=" p-1 hover:text-redi transition" href="#">bookings</a></li>
              <li><a class=" p-1 hover:text-redi transition" href="#">login</a></li>
-order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki hover:bg-redi transition" href="#">sing up</a></li>
+             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki hover:bg-redi transition" href="#">sing up</a></li>
              <li><a class=" p-1 hover:text-redi transition" href="#">EN</a></li>
          </ul>
 
@@ -135,7 +135,7 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
              absolute -top-14 sm:top-0 right-0 -z-1
         ">
         <h3 class=" text-pcolor font-medium">category</h3>
-        <h2 class="text-hcolor font-bold text-3xl">We Offer Best Services</h2>
+        <h2 class="text-hcolor font-bold text-3xl font-hfont">We Offer Best Services</h2>
         <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
          gap-6 px-16 md:px-28 lg:px-10 xl:px-28 2xl:px-48
         ">
@@ -161,7 +161,7 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
                 <div class="shap absolute -bottom-6 -left-6 bg-redi p-10 rounded-tl-pers-round rounded-br-xl -z-1"></div>
                 <img width="92px" height="72px" src="/src/img/airplan2.png" alt="" class="inline-block">
                 <h3 class="text-hcolor font-semibold">Best Flightss</h3>
-                <p class="text-pcolor text-sm px-8">Engrossed listening. Park gate sell they west hard for the.</p>
+                <p class="text-pcolor text-sm px-8 ">Engrossed listening. Park gate sell they west hard for the.</p>
             </div>
         <!-- category iteme 3 -->
 
@@ -175,6 +175,7 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
         <!-- category iteme 4 -->
 
             <div class="category_item transition py-8 lg:py-14 
+            
             flex flex-col justify-center items-center
             ">
                 <img src="/src/img/options.png" alt="" class="inline-block">
@@ -185,18 +186,22 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
     </section>
     <!-- ./gategory section end -->
     <!-- ######################################################################################### -->
+        <!-- top_selling section start -->
     <section id="top_selling" class="text-center mt-10 lg:mt-20">
         <h3 class=" text-pcolor font-medium">Top Selling</h3>
-        <h2 class="text-hcolor font-bold text-3xl">Top Destinations</h2>
+        <h2 class="text-hcolor font-bold text-3xl font-hfont">Top Destinations</h2>
 
         <div class=" grid justify-center gap-6 md:grid-cols-3 mt-10
          px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48
         ">
             <!-- destionation item 1 -->
-            <div class="destination_item the_item_shadow mx-auto rounded-3xl overflow-hidden">
-                <img src="/src/img/roma.png" alt="" class=" object-cover object-center w-screen"
-                style="max-height:75%;"
-                >
+            <div class="destination_item w-full the_item_shadow mx-auto rounded-3xl overflow-hidden">
+                
+                <div class="img_content relative w-scree"  style="height:75%;width:100%;overflow: hidden;">
+                    <img src="/src/img/roma.png" alt="" class=" object-cover object-center  transform hover:-rotate-12 hover:scale-125 transition"
+                   style="height:100%;width:100%;">
+                   
+                </div>
                 <div class="item_info text-pcolor font-medium grid items-center px-4 py-4" style="height: 25%;">
                     <div class="title_and_price  text-lg flex justify-between">
                         <h3 class="">Rome, Italty</h3>
@@ -210,10 +215,12 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
             </div><!-- .destination_item -->
 
             <!-- destionation item 2 -->
-            <div class="destination_item the_item_shadow mx-auto rounded-3xl overflow-hidden">
-                <img src="/src/img/london.png" alt="" class=" object-cover object-center w-screen"
-                style="max-height:75%;"
-                >
+            <div class="destination_item w-full the_item_shadow mx-auto rounded-3xl overflow-hidden">
+                <div class="img_content relative w-scree"  style="height:75%;width:100%;overflow: hidden;">
+                    <img src="/src/img/london.png" alt="" class=" object-cover object-center  transform hover:rotate-12 hover:scale-125 transition"
+                   style="height:100%;width:100%;">
+                   
+                </div>
                 <div class="item_info text-pcolor font-medium grid items-center px-4 py-4" style="height: 25%;">
                     <div class="title_and_price  text-lg flex justify-between">
                         <h3 class="">London, UK</h3>
@@ -227,10 +234,12 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
             </div><!-- .destination_item -->
 
             <!-- destionation item 3 -->
-            <div class="destination_item the_item_shadow mx-auto rounded-3xl overflow-hidden">
-                <img src="/src/img/euro.png" alt="" class=" object-cover object-center w-screen"
-                style="max-height:75%;"
-                >
+            <div class="destination_item w-full the_item_shadow mx-auto rounded-3xl overflow-hidden">
+                <div class="img_content relative w-scree"  style="height:75%;width:100%;overflow: hidden;">
+                    <img src="/src/img/euro.png" alt="" class=" object-cover object-center  transform hover:-rotate-12 hover:scale-125 transition"
+                   style="height:100%;width:100%;">
+                   
+                </div>
                 <div class="item_info text-pcolor font-medium grid items-center px-4 py-4" style="height: 25%;">
                     <div class="title_and_price  text-lg flex justify-between">
                         <h3 class="">Rome, Italty</h3>
@@ -244,6 +253,83 @@ order             <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki 
             </div><!-- .destination_item -->
         </div>
     </section>
+    <!-- ./top_selling section end -->
+    <!-- ######################################################################################### -->
+        <!-- book now section start -->
+    <section id="book_now" class="mt-10 lg:mt-20 grid gap-20 md:grid-cols-2 items-center md:gap-10
+    px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48
+    ">
+        <div class="info">
+            <h3 class="text-pcolor font-semibold mb-1">Easy and Fast</h3>
+            <h2 class="text-hcolor font-bold text-3xl capitalize font-hfont">Book your next trip <br> in 3 easy steps</h2>
+            <div class="more_info mt-10 space-y-10">
+
+                <div class="item flex gap-3 items-center">
+                    <img style="width: 48px; height:48px" src="src/img/Group 7.png" alt="">
+                    <div>
+                        <h4 class="text-pcolor font-bold text-base">Choose Destination</h4>
+                        <p class="text-pcolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                    </div>                    
+                </div><!-- ./item -->
+
+                <div class="item flex gap-3 items-center">
+                    <img style="width: 48px; height:48px" src="src/img/Group 12.png" alt="">
+                    <div>
+                        <h4 class="text-pcolor font-bold text-base">Make Payment</h4>
+                        <p class="text-pcolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                    </div>                    
+                </div><!-- ./item -->
+
+                <div class="item flex gap-3 items-center">
+                    <img style="width: 48px; height:48px" src="src/img/Group 11.png" alt="">
+                    <div>
+                        <h4 class="text-pcolor font-bold text-base">Reach Airport on Selected Date</h4>
+                        <p class="text-pcolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                    </div>                    
+                </div><!-- ./item -->
+            </div><!-- ./more_info -->
+        </div><!-- ./info -->
+        <div class="img_show font-medium relative place-self-center" style="max-width:300px;max-height:457px;">
+       
+            <div id="img_show_box" class="the_item_shadow rounded-3xl w-full h-full space-y-5 py-10 px-4 bg-white">
+                <img src="/src/img/Rectangle 17.png" alt="">
+            <h3 class=" text-hcolor font-bold text-lg">Trip To Greece</h3>
+            <div class="time_and_by text-pcolor  space-x-3">
+                <span class="time">14-29 June</span>
+                <span>|</span>
+                <span class="by">by Robbin joseph</span>
+            </div><!-- ./time_and_by -->
+            <div class="tags_icons flex gap-1">
+                <img src="/src/img/LEAF.png" alt="">
+                <img src="/src/img/map icon.png" alt="">
+                <img src="/src/img/send.png" alt="">
+            </div><!-- ./tags_icons -->
+            <div class="people_going flex gap-1">
+                <img src="/src/img/building 1.png" alt="">
+                <span class="text-pcolor">24 people going</span>
+            </div><!-- ./people_going -->
+            </div>
+
+            <div id="over_imgShow_box" class="the_item_shadow bg-white rounded-3xl w-full py-2 px-4
+             lg:absolute lg:top-2/3 lg:left-2/4 flex gap-4 items-center
+            transform transition lg:opacity-0 lg:translate-x-8 mt-2 lg:mt-0
+             ">
+                <img src="src/img/image 32.png" alt="" class=" rounded-full">
+                <div class="info font-medium">
+                    <h3 class="text-pcolor">Ongoing</h3>
+                    <h2 class="text-hcolor text-lg">Trip to rome</h2>
+                    <span class="text-pcolor">40%</span>
+                    <span class="text-hcolor font-bold text-sm">completed</span>
+                    <div class="complete_progress_bar bg-pcolor w-full h-1 rounded-3xl">
+                        <div class="bg-hcolor w-1/2 h-full"></div>
+                    </div>
+                </div><!-- ./info -->
+            </div><!-- ./over_div -->
+        </div><!-- ./img_show -->
+
+    </section>
+        <!-- book now section end -->
+
     <!-- ######################################################################################### -->
 
 
