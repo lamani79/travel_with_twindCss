@@ -29,7 +29,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+
+      // outline: ["focus",'active'],
+      // borderColor: ["focus",'active'],
+    },
   },
   plugins: [],
 }

@@ -11,7 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">    
 <link rel="stylesheet" href="/css/style.css">
-    <title>Travling landing page</title>
+
+<title>Travling landing page</title>
 </head>
 <body class=" font-pfont bg-white">
     <!-- <div class="small_screan_nav bg-black w-full h-full absolute z-50
@@ -50,11 +51,9 @@
    <!-- header -->
 
    <header class="  h-14 fixed top-0 w-full bg-white z-10">
-       <div class="container transition filter md:filter-none mx-auto py-3 
-       gap-6 px-16 md:px-0 lg:px-6 xl:px-28 2xl:px-48
-       ">
+       <div class="container transition filter md:filter-none mx-auto py-3 ">
 
-           <nav class="flex items-center justify-between">
+           <nav class="flex items-center justify-between md:justify-around ">
                <img src="src/img/Logo.png" alt="logo" class="logo">
                <ul
                class="large_screan_ul  gap-3 text-blacki font-medium text-base
@@ -236,8 +235,11 @@
             <!-- destionation item 3 -->
             <div class="destination_item w-full the_item_shadow mx-auto rounded-3xl overflow-hidden">
                 <div class="img_content relative w-scree"  style="height:75%;width:100%;overflow: hidden;">
-                    <img src="/src/img/euro.png" alt="" class=" object-cover object-center  transform hover:-rotate-12 hover:scale-125 transition"
+                    <img src="/src/img/euro.png" alt="" class="object-cover object-center  transform hover:-rotate-12 hover:scale-125 transition"
                    style="height:100%;width:100%;">
+                   <div class="black_img_over bg-black transition hidden opacity-0">
+
+                   </div>
                    
                 </div>
                 <div class="item_info text-pcolor font-medium grid items-center px-4 py-4" style="height: 25%;">
@@ -257,7 +259,7 @@
     <!-- ######################################################################################### -->
         <!-- book now section start -->
     <section id="book_now" class="mt-10 lg:mt-20 grid gap-20 md:grid-cols-2 items-center md:gap-10
-    px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48
+    px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48s
     ">
         <div class="info">
             <h3 class="text-pcolor font-semibold mb-1">Easy and Fast</h3>
@@ -289,7 +291,7 @@
                 </div><!-- ./item -->
             </div><!-- ./more_info -->
         </div><!-- ./info -->
-        <div class="img_show font-medium relative place-self-center" style="max-width:300px;max-height:457px;">
+        <div class="img_show font-medium relative place-self-center lg:place-self-start xl:place-self-center" style="max-width:300px;max-height:457px;">
        
             <div id="img_show_box" class="the_item_shadow rounded-3xl w-full h-full space-y-5 py-10 px-4 bg-white">
                 <img src="/src/img/Rectangle 17.png" alt="">
@@ -329,9 +331,66 @@
 
     </section>
         <!-- book now section end -->
+    <!-- ######################################################################################### -->
+    <!-- testimonial section start -->
+    <section id="testimonial" class="mt-32 lg:mt-24 
+    px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48
+    ">
+        <div class="titles text-center mb-20 sm:mb-10">
+            <h3 class="text-pcolor font-semibold mb-1 ">Testimonials</h3>
+            <h2 class="text-hcolor font-bold text-3xl capitalize font-hfont">What people say<br>about Us.</h2>
+        </div><!-- ./titles -->
+        <div style="max-width: 550px;" class="info_testimonial_item the_item_shadow rounded-3xl relative bg-white py-14 px-4 mx-auto">
+            <img src="src/img/face_img_1.png" alt="" class="absolute -top-8 -left-4 md:-left-8">
+            <p class="text-pcolor mb-8">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+            <h3 class="text-pcolor font-semibold mb-1">Mike taylor</h3>
+            <h4 class="text-pcolor font-medium text-sm">Lahore, Pakistan</h4>
 
+        </div><!-- ./info_testimonial_item -->
+    </section>
+        <!-- ./testimonial section end -->
+    <!-- ######################################################################################### -->
+    <!-- sponsor section start -->
+    <section id="sponsor" class="grid place-content-center items-center md:grid-cols-3 xl:grid-cols-5
+    mt-10 lg:mt-20 px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48s">
+        <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 27.png" alt="" class="sponsor_img  filter grayscale transition"></div>
+        <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 28.png" alt="" class="sponsor_img  filter grayscale transition"></div>
+        <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 29.png" alt="" class="sponsor_img  filter grayscale transition"></div>
+        <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 30.png" alt="" class="sponsor_img  filter grayscale transition"></div>
+        <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 31.png" alt="" class="sponsor_img  filter grayscale transition"></div>
+    </section>
+    <!-- sponsor section end -->
+    <!-- ######################################################################################### -->
+    <!-- subsription section start -->
+    <section id="subscription" class="relative mt-10 lg:mt-20 px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48s" >
+        <img src="/src/img/Group 77.png" alt="" class="absolute -top-10 -right-0 sm:right-5 xl:right-20">
+        <img src="src/img/Decore_section2.png" alt="" class="absolute -bottom-10 -right-2">
+        <div class="sub_box relative py-20 px-10 md:p-20 xl:px-48 xl:py-36 text-center space-y-4" 
+        style="background-color: #f6f4ff;border-radius: 129px 20px 20px 20px;">
+        <img src="src/img/sselk.png" alt="" class="absolute  top-0 right-0" style="max-height: 75%;">
+            <p class="text-pcolor font-semibold text-xl lg:text-2xl">Subscribe to get information, latest news and other
+                interesting offers about Cobham</p>
+            <form class="md:flex">
+                <input placeholder="Entre your email eddress" type="email" class="mb-4 md:mr-4 md:mb-0 bg-white px-4 py-2 lg:px-8 lg:py-4 rounded-xl
+                 focus:outline-none text-pcolor font-medium " style="flex-grow: 2;">
+                <button class="bg-gradient-to-t from-orangi to-redi font-medium transition hover:from-redi hover:to-orangi text-white px-4 py-2 lg:px-8 lg:py-4 rounded-xl"
+                style="flex-grow: 1;"
+                >Subscribe</button>
+            </form>
+
+            
+        </div><!-- ./sub_box -->
+    </section>
+    <!-- subscription section end -->
     <!-- ######################################################################################### -->
 
+    
+
+
+
+
+
+    <!-- ######################################################################################### -->
 
    </div><!-- ./container -->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

@@ -39,5 +39,18 @@
     visibility: visible;
     
 }
+.black_img_over{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.sponsor_item{
+    width: 167px;
+    height: 167px;
+}
+.sponsor_img:hover{
+    filter: grayscale(0%);
 
-
+}
