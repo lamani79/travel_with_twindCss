@@ -11,27 +11,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">    
 <link rel="stylesheet" href="/css/style.css">
-
 <title>Travling landing page</title>
 </head>
-<body class=" font-pfont bg-white">
-    <!-- <div class="small_screan_nav bg-black w-full h-full absolute z-50
-     opacity-90  ">
-    fdqs
-    </div> -->
 
-    <img src="src/img/Decore.png" alt="" 
-    class="absolute top-0 right-0 w-full h-full -z-1">
+
+<body class=" font-pfont bg-white">
+
+
+    <img src="src/img/Decore.png" alt="" class="absolute top-0 right-0 w-full h-full -z-1">
+
+    <!-- ######################################################################################### -->
     <!-- mobile nav start -->
    <nav style="transition:0.3s; width: 322px; height:0px;" id="mobile_nav"
-   class=" transition  bg-blacki  fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-         rounded-lg z-50 md:hidden overflow-hidden">
-        <!-- <div id="close_nav_btn" class=" relative w-full  h- cursor-pointer bg-red-400 overflow-hidden"> -->
-         <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-        <!-- <img src="src/img/close (1).svg" alt="close" class="w-6 absolute right-6 top-6">
+   class=" transition  bg-blacki  fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg z-50 md:hidden overflow-hidden">
         
-
-        </div> -->
         <img id="close_nav_btn" src="src/img/close (1).svg" alt="" class="w-6 h-6 absolute top-4 right-6 cursor-pointer">
          <ul
          class="small_screan_ul  gap-3 text-white font-medium text-base
@@ -41,17 +34,17 @@
              <li><a class=" p-1 hover:text-redi transition" href="#">hotels</a></li>
              <li><a class=" p-1 hover:text-redi transition" href="#">flights</a></li>
              <li><a class=" p-1 hover:text-redi transition" href="#">bookings</a></li>
-             <li><a class=" p-1 hover:text-redi transition" href="#">bookings</a></li>
              <li><a class=" p-1 hover:text-redi transition" href="#">login</a></li>
              <li><a class="  b-2 border-redi rounded p-1 hover:text-blacki hover:bg-redi transition" href="#">sing up</a></li>
              <li><a class=" p-1 hover:text-redi transition" href="#">EN</a></li>
          </ul>
 
    </nav><!-- ./mobile_nav_end --> 
-   <!-- header -->
+    <!-- ######################################################################################### -->
 
-   <header class="  h-14 fixed top-0 w-full bg-white z-10">
-       <div class="container transition filter md:filter-none mx-auto py-3 ">
+   <!-- header start -->
+   <header id="main_header" class="  h-14  w-full  z-10 transition">
+       <div class="container transition filter md:filter-none mx-auto py-3 px-3 ">
 
            <nav class="flex items-center justify-between md:justify-around ">
                <img src="src/img/Logo.png" alt="logo" class="logo">
@@ -62,7 +55,6 @@
                    <li><a class=" p-1 hover:text-redi transition" href="#">destination</a></li>
                    <li><a class=" p-1 hover:text-redi transition" href="#">hotels</a></li>
                    <li><a class=" p-1 hover:text-redi transition" href="#">flights</a></li>
-                   <li><a class=" p-1 hover:text-redi transition" href="#">bookings</a></li>
                    <li><a class=" p-1 hover:text-redi transition" href="#">bookings</a></li>
                    <li><a class=" p-1 hover:text-redi transition" href="#">login</a></li>
                    <li><a class="  border-2 border-blacki rounded p-1 hover:text-blacki hover:bg-redi transition" href="#">sing up</a></li>
@@ -79,6 +71,7 @@
        </div>
    </header>
 <!-- header end -->
+    <!-- ######################################################################################### -->
 
    <!-- container start
  -->
@@ -352,7 +345,7 @@
     <!-- ######################################################################################### -->
     <!-- sponsor section start -->
     <section id="sponsor" class="grid place-content-center items-center md:grid-cols-3 xl:grid-cols-5
-    mt-10 lg:mt-20 px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48s">
+    mt-10 lg:mt-20 px-4 sm:px-16 md:px-10 lg:px-10 xl:px-28 2xl:px-48">
         <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 27.png" alt="" class="sponsor_img  filter grayscale transition"></div>
         <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 28.png" alt="" class="sponsor_img  filter grayscale transition"></div>
         <div class="sponsor_item place-self-center grid place-content-center"><img src="/src/img/image 29.png" alt="" class="sponsor_img  filter grayscale transition"></div>
@@ -384,7 +377,58 @@
     <!-- subscription section end -->
     <!-- ######################################################################################### -->
 
-    
+    <footer id="main_footer" class=" text-center
+    grid  md:grid-cols-5 items-start gap-5 
+    mt-10 lg:mt-20 px-2 sm:px-8 md:px-0 lg:px-10 xl:px-28 2xl:px-48
+    ">
+        <div>
+            <h3 class="text-hcolor text-4xl font-medium">Jadoo.</h3>
+            <p class="text-pcolor text-sm">Book your trip in minute, get full
+               <br>Control for much longer.</p>
+        </div>
+
+        <div class="flex flex-col gap-1">
+            <h3 class="text-hcolor font-bold text-lg">Company</h3>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">About</a>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Careers</a>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Mobile</a>
+        </div>
+
+        <div class="flex flex-col gap-1">
+            <h3 class="text-hcolor font-bold text-lg">Contact</h3>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Help/FAQ</a>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Press</a>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Affilates</a>
+        </div>
+
+        <div class="flex flex-col gap-1">
+            <h3 class="text-hcolor font-bold text-lg">More</h3>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Airlinefees</a>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Airline</a>
+            <a href="#" class="text-pcolor font-medium hover:text-hcolor transition">Low fare tips</a>
+        </div>
+
+        <div>
+            <ul class="flex justify-center gap-4">
+                <li><a href="#"><img src="src/img/facebook_icon.png" alt=""></a></li>
+                <li><a href="#"><img src="src/img/insta_icon.png" alt=""></a></li>
+                <li><a href="#"><img src="src/img/twit_icon.png" alt=""></a></li>
+            </ul>
+            <h3 class="text-hcolor font-medium text-lg mb-1">Discover our apps</h3>
+            <ul class="flex justify-center gap-4 md:gap-1">
+                <li><a href="#"><img src="src/img/googel_play_icon.png" alt=""></a></li>
+                <li><a href="#"><img src="src/img/apple_store_icon.png" alt=""></a></li>
+
+            </ul>
+        </div>
+
+      
+    </footer>
+    <!-- ######################################################################################### -->
+
+    <section id="all_right_section" class="text-center text-hcolor font-medium mt-10">
+    page created by khelil yasser <a class="text-pcolor font-bold hover:text-hcolor transition" href="https://www.facebook.com/khelil.yasserdjameledine/" target="blanck">"Amani Mitsuha"</a>    
+    </section>
 
 
 
@@ -393,7 +437,7 @@
     <!-- ######################################################################################### -->
 
    </div><!-- ./container -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
 
    <script src="js/main.js"></script>

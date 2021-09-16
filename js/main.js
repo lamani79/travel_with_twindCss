@@ -1,6 +1,7 @@
 
 const containers = document.querySelectorAll('.container');
 const mobile_nav = document.getElementById('mobile_nav');
+const main_header = document.getElementById('main_header');
 document.getElementById('nav_btn').addEventListener('click',toggle_nav_effects);
 document.getElementById('close_nav_btn').addEventListener('click',toggle_nav_effects);
 
@@ -26,3 +27,11 @@ function toggle_mb_nav_height(){
 // window.addEventListener('load',toggle_nav_effects)
 
 
+window.addEventListener('scroll',function(e){
+    if(window.scrollY >= 800){
+        main_header.classList.add('nav_style_inScroll');
+    }
+    if(window.scrollY == 0){
+        main_header.classList.remove('nav_style_inScroll');
+    }
+})

@@ -5,12 +5,7 @@
 .oppen_height_mb_nav{
     height: 400px;
 }
-/* .herro_h1{
-    line-height: 89px;
-}
-.herro_p{
-    line-height: 30px;
-} */
+
 
 .category_item:hover{
     background: #FFFFFF;
@@ -29,8 +24,7 @@
     background-color: white;
 }
 #over_imgShow_box{
-    /* transform: translateX(50px); */
-    /* opacity in html */
+    
     
 }
 #over_imgShow_box:hover,#img_show_box:hover + #over_imgShow_box{
@@ -53,4 +47,10 @@
 .sponsor_img:hover{
     filter: grayscale(0%);
 
+}
+
+.nav_style_inScroll{
+    background-color: white;
+    position: fixed;
+    top: 0; 
 }
